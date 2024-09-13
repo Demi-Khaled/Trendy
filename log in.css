@@ -1,0 +1,50 @@
+body{
+    background-color:#0d3254;  
+}
+
+h2{
+    color:  rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+div{
+    border-radius: 25px;
+    margin-top: 10%;
+    height:10cm;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(0, 0, 0);
+    margin-right: 30%;
+    margin-left: 30%;        
+}
+
+#password ,#admin{
+    background-color:#1763a9;
+    border-color: #1763a9;
+    border-radius:25px ;
+
+    outline: none;
+    padding: 0 20px;
+    height:0.6cm;   
+    width: 5cm;
+}
+
+img{
+    position: relative;
+    margin-top: 5%;
+    width: 0.9cm;
+    height: 0.9cm;
+    padding-top: 15px;
+    gap:calc(50%);
+}
+#signbtn{
+    border-color: transparent;
+    background-color: #1763a9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: white;
+    border-radius: 25px;
+    height: 0.6cm;   
+    width: 3cm;
+    cursor:pointer;
+}

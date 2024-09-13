@@ -1,0 +1,225 @@
+body{
+    background-color: #092D65;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 25px;
+    background-color: black;
+
+}
+li{
+    font-size:large;
+    color:  rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#userbtn{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    background-color: black;
+    color: black;
+    font-weight: 500;
+    cursor: pointer;
+}
+#logo{
+    width: 4cm;
+    height: 3cm;
+}
+nav ul{
+    list-style: none;
+    width: 100%;
+    text-align: left;
+    padding-right: 60px;
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    
+}
+nav ul li a:hover{
+    color: #1d5488;
+    transition: 0.3s;
+}
+#greet{
+    font-size: 30px;
+    font-weight: 500;
+    padding-left: 25px;
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#btn img{
+    width: 1.5cm;
+    height: 1.5cm;
+}
+
+
+
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+   /* Adjust the gap between the table and the calendar */
+  margin: 20px;
+}
+.orders-container {
+  flex: 2; /* Adjust this value to allocate more or less space to the table */
+  overflow-x: auto; /* Add horizontal scroll if needed */
+}
+
+.calendar-container {
+  flex: 1;
+    background-color: black;
+    width: 500px;
+    display: flex;
+    border-radius: 35px;
+    align-items: center;
+    justify-content: center;
+  }
+  .calendar {
+    width: 100%;
+    max-width: 600px;
+    padding: 30px 20px;
+    border-radius: 10px;
+    background-color: black;
+  }
+  .calendar .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #ccc;
+  }
+  .calendar .header .month {
+    display: flex;
+    align-items: center;
+    font-size: large;
+    font-weight: 600;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .calendar .header .btns {
+    display: flex;
+    gap: 10px;
+  }
+  .calendar .header .btns .btn {
+    width: 50px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    color:black;
+    background-color:white ;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s;
+
+  }
+  .calendar .header .btns .btn:hover {
+    background-color:#1d5488;
+    transform: scale(1.05);
+  }
+  .weekdays {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+    
+  }
+  .weekdays .day {
+    width: calc(100% / 7 - 10px);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .days {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .days .day {
+    width: calc(100% / 7 - 10px);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    background-color:black;
+    transition: all 0.3s;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+
+  }
+  .days .day:not(.next):not(.prev):hover {
+    color:black;
+    background-color:#1d5488 ;
+    transform: scale(1.05);
+  }
+  .days .day.today {
+    color:#1d5488;
+    background-color: white;
+  }
+  .days .day.next,
+  .days .day.prev {
+    color: #ccc;
+    background-color:#1d5488;
+  }
+  
+
+
+  /*search */
+  #search,#change-password,#new-password{
+    margin-top: 20px;
+    width: 200px;
+    height: 35px;
+    padding: 10px;
+    border-radius: 25px;
+    border-color:transparent;
+    background-color:white;
+
+}
+
+
+table{
+    margin-top: 20px;
+    width: 100%;
+    border: 2px 2px  solid;
+    border-radius: 25px;
+    border-collapse: collapse;
+    background-color:aliceblue;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    padding: 15px 25px;
+}
+
+
+
+/* settings */
+#btnchange{
+  margin-top : 20px;
+  margin-left: 20px;
+  height: 25px;
+  border-radius: 25px;
+  background-color: black;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-color: transparent;
+}
