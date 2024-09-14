@@ -1,4 +1,4 @@
-<h1>Full-Stack Development Project! 👨‍💻👗</h1>
+<h1>Trendy - Full-Stack Development Project! 👨‍💻👗</h1>
 <br>
 Website manages a clothing store, built using PHP as the backend! 🎉
 <br><br>
